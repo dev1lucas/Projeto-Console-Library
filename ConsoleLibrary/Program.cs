@@ -1,17 +1,9 @@
 ﻿using System.Diagnostics;
 using System.Linq.Expressions;
 //Console Library
-/*
- O que precisa?
-    1-Criar um menu com opções:
-    -Adicionar livro a Biblioteca
-    -Ver livros na Biblioteca (se tiver avaliação mostrar)
-    -Avaliar Livro da Biblioteca
-    -Sair
-    2-Onde cada uma das opções terão uma função
- */
+
 string option;
-Dictionary<string, int> livrosRegistrados = new Dictionary<string, int>(); // Refatorar Dictionary por um Object gerando uma Public Class Book no codigo 
+Dictionary<string, int> livrosRegistrados = new Dictionary<string, int>();
 
 
 void MenuOptions()
@@ -73,7 +65,7 @@ void RegisterBook() //Registrar livro
     else {
         
         livrosRegistrados.Add(bookName, new int());
-        Console.WriteLine($"O livro {bookName} foi adicionado a biblioteca"); //Adicionando ao dicionario
+        Console.WriteLine($"O livro {bookName} foi adicionado a biblioteca"); //Adicionando ao dicionário
         Thread.Sleep(3000);
         MenuOptions();
     }
