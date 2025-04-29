@@ -1,6 +1,6 @@
 # 📚 Console Library
 
-Um projeto simples em C# que simula uma pequena biblioteca pessoal via terminal, permitindo ao usuário cadastrar livros, visualizar a lista, e avaliar os livros registrados.
+Um projeto simples em C# que simula uma pequena biblioteca pessoal via terminal, permitindo ao usuário cadastrar livros, visualizar a lista e avaliar os livros registrados.
 
 ---
 
@@ -54,20 +54,21 @@ Um projeto simples em C# que simula uma pequena biblioteca pessoal via terminal,
 
 ## ✅ Exemplo de Uso
 
-- Ao adicionar um livro, ele é salvo na lista com uma nota inicial "0" (não avaliado).
+- Ao adicionar um livro, ele é salvo na lista.
 - Ao avaliar um livro, a nota será atualizada de acordo com o valor informado.
-- A nota será exibida ao lado do nome do livro na visualização.
+- A nota é exibida ao lado do nome do livro na visualização.
 
 ---
 
 ## 🧠 Aprendizados
 
-Esse projeto foi desenvolvido para treinar:
+Este projeto foi desenvolvido para treinar:
 
-- Uso de `Dictionary` em C#
+- Uso de `Dictionary` e `List` em C#
 - Interação com o usuário no console
-- Estruturação de menus e funções
-- Boas práticas de organização de código
+- Estruturação de menus e controle de fluxo
+- Boas práticas de **organização de código** através da criação de **módulos/classes** (`Book`, `BookShelf`, `Menu`)
+- Princípios básicos de programação orientada a objetos (OOP) como **encapsulamento** e **responsabilidade única**
 
 ---
 
@@ -78,3 +79,4 @@ Este projeto está sob a licença MIT. Sinta-se livre para usar e modificar.
 ---
 
 > Desenvolvido com 💻 por **Lucas dos Santos Araújo**
+
